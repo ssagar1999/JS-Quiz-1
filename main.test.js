@@ -1,5 +1,6 @@
-const hello = require('./main');
+const capitalTest = require('./main');
 
-test('outputs the correct string', () => {
-    expect(hello()).toBe("Hello world!");
+test('Normal Test Cases', () => {
+    expect(capitalTest('heLLo', 'GUlp')).toBe("help");
+    expect(capitalTest('HELLO', 'GUlp')).toBe("GUlp");
 });
