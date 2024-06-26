@@ -11,7 +11,7 @@
 
 function capitalTest(s1, s2) {
     // Write your code here.
-    return undefined;
+    return 'help'
 }
 
 module.exports = capitalTest;
